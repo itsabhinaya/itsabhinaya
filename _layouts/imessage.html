@@ -1,19 +1,16 @@
+
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>iMessage</title>
-    <link rel="stylesheet" href="appstyle.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<html lang="{{ site.lang }}">
 
-   
-</head>
-<body>
+  {% include head.html %}
 
-    
+  <body>
 
-    <nav id="conversation-list">
+    {% include navigation.html %}
+
+     <nav id="conversation-list">
+
+
         <div id="window-controls">
             <button id="close">x</button>
             <button id="minimize">–</button>
@@ -144,6 +141,15 @@
    
     
    
-</body>
-<script src="app.js"></script>
+
+
+
+    {% include footer.html %}
+
+    {% include js.html %}
+
+  </body>
 </html>
+
+
+
