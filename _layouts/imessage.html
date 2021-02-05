@@ -1,0 +1,153 @@
+
+<!-- Blog Layout Start -->
+
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include navigation.html %}
+
+     <nav id="conversation-list">
+        <div id="window-controls">
+            <button id="close">x</button>
+            <button id="minimize">–</button>
+            <button id="maximize">+</button>
+        </div>
+        <div id="controls">
+            <i class="fa fa-search"></i>
+            <input id="searchuser" placeholder="Search" onkeyup="myFunction()" />
+            <button class="new-message">
+                <i class="fa fa-edit"></i>
+            </button>
+        </div>
+        <ol id="userOL">
+            <li class="open">
+                <div class="img">
+                    <img src="https://popmenucloud.com/dxejtgzs/4fdbd15f-a507-43df-924a-213ae0f82806.png"/>
+                   <span class="initials">LC</span>
+                </div>
+                <div class="message-promo">
+                    <time datetime="8:21 AM">8:21 AM</time>
+                    <p id="username" class="name">Linh <span>🎄</span> Christmas</p>
+                    <p class="preview">Lorem ipsum dolor sit amet, asd consectetur adipisicing elit. Alias facilis pariatur repudiandae quia mollitia beatae fugiat.</p>
+                </div>
+            </li>
+            <li>
+                <div class="img">
+                    <img src="https://popmenucloud.com/dxejtgzs/4fdbd15f-a507-43df-924a-213ae0f82806.png"/>
+                    <span class="initials">BD</span>
+                </div>
+                <div class="message-promo">
+                    <time datetime="3/27/2019">Yesterday</time>
+                    <p id="username" class="name">Brian Donahue</p>
+                    <p class="preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias facilis pariatur repudiandae quia mollitia beatae fugiat.</p>
+                </div>
+            </li>
+            <li class="unread">
+                <div class="img">
+                    <img src="https://popmenucloud.com/dxejtgzs/4fdbd15f-a507-43df-924a-213ae0f82806.png"/>
+                    <span class="initials">TC</span>
+                </div>
+                <div class="message-promo">
+                    <time datetime="3/29/2019">3/26/19</time>
+                    <p id="username"  class="name">Tim Coffee</p>
+                    <p class="preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias facilis pariatur repudiandae quia mollitia beatae fugiat.</p>
+                </div>
+            </li>
+            <li>
+                <div class="img">
+                    <img src="https://popmenucloud.com/dxejtgzs/4fdbd15f-a507-43df-924a-213ae0f82806.png"/>
+                    <span class="initials">BD</span>
+                </div>
+                <div class="message-promo">
+                    <time datetime="3/27/2019">Yesterday</time>
+                    <p id="username"  class="name">Brian Donahue</p>
+                    <p class="preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias facilis pariatur repudiandae quia mollitia beatae fugiat.</p>
+                </div>
+            </li>
+            <li class="unread">
+                <div class="img">
+                    <img src="https://popmenucloud.com/dxejtgzs/4fdbd15f-a507-43df-924a-213ae0f82806.png"/>
+                    <span class="initials">TC</span>
+                </div>
+                <div class="message-promo">
+                    <time datetime="3/29/2019">3/26/19</time>
+                    <p id="username"  class="name">Tim Coffee</p>
+                    <p class="preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias facilis pariatur repudiandae quia mollitia beatae fugiat.</p>
+                </div>
+            </li>
+        </ol>
+    </nav>
+    <section id="conversation">
+        <aside class="info">
+            <p>To:<span id="activename" class="name">Linh 🎄 Christmas<i class="far fa-angle-down"></i></span> <a id="details">Details</a></p>
+        </aside>
+        <article id="messages">
+            <div id="first">
+            <time class="thread" datetime="3/25/19, 9:04 AM">
+                <div class="conversation-group">
+                    <p class="message imessage">Ipsum dolore illo ea officiis tempore tempora repellendus sed, suscipit aut, inventore debitis consectetur, dolor temporibus?</p>
+                </div>
+              
+                <div class="conversation-group">
+                    <p class="message imessage">Ipsum temporibus?</p>
+                    <p class="message imessage">Accusamus tempore est animi odit</p>
+                </div>
+                <div class="conversation-group outgoing">
+                    <p class="message imessage">Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+                    <p class="message imessage">Ipsam sequi</p>
+                </div>
+            </time>
+          
+            <time class="thread" datetime="Yesterday, 2:56 PM">
+                <div class="conversation-group outgoing">
+                    <p class="message imessage">Quod ducimus reprehenderit delectus ullam corrupti? Accusamus tempore est animi odit, fugit ipsam molestias a veritatis, officiis officia corporis quos eos fugiat modi enim eligendi obcaecati sequi libero.</p>
+                </div>
+            </time>
+            </div>
+           
+        </article><!-- END MESSAGES -->
+        <aside id="message-input" style="display:none">
+            <input  id="meassagesend" type="text" placeholder="iMessage" autofocus />
+            <button class="imessage">&#8593;</button>
+        </aside>
+        
+    </section>
+
+    <div id="modaliphone" style="visibility: hidden;">
+        <div class="imgmodal">
+            <img id="modalimg" src="https://randomuser.me/api/portraits/men/40.jpg">
+            <p id="modalusername" class="name">Brian Donahue</p>
+            <span class="modalbio">Lorem ipsum dolor sit amet</span>
+            
+            <div class="modalicon">
+               
+                <div class="linkedin">
+                <i class="fa fa-linkedin"></i> 
+            </div>
+                <div class="space"></div>
+               <div class="facebook">
+                <i class="fa fa-facebook"></i> 
+            </div>
+            </div>
+        </div>
+       
+ 
+ 
+    </div>
+   
+    
+   
+</body>
+
+    {% include footer.html %}
+
+    {% include js.html %}
+
+  </body>
+</html>
+
+<!-- Blog Layout End -->
