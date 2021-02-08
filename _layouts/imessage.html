@@ -6,7 +6,9 @@
 
   <body>
 
+
     {% include navigation.html %}
+    <div style="display:flex">
 
      <nav id="conversation-list">
 
@@ -24,61 +26,20 @@
             </button>
         </div>
         <ol id="userOL">
-            <li class="open">
+            {% for tag in page.name %}
+            <li >
                 <div class="img">
                     <img src="https://popmenucloud.com/dxejtgzs/4fdbd15f-a507-43df-924a-213ae0f82806.png"/>
                    <span class="initials">LC</span>
                 </div>
                 <div class="message-promo">
-                    <time datetime="8:21 AM">8:21 AM</time>
-                    <p id="username" class="name">Linh <span>🎄</span> Christmas</p>
-                    <p class="preview">Lorem ipsum dolor sit amet, asd consectetur adipisicing elit. Alias facilis pariatur repudiandae quia mollitia beatae fugiat.</p>
+                    <time datetime="{{ date }}">{{ date }}</time>
+                    <p id="username" class="name">{{ name }}</p>
+                    <p class="preview">{{ preview }}</p>
                 </div>
             </li>
-            <li>
-                <div class="img">
-                    <img src="https://popmenucloud.com/dxejtgzs/4fdbd15f-a507-43df-924a-213ae0f82806.png"/>
-                    <span class="initials">BD</span>
-                </div>
-                <div class="message-promo">
-                    <time datetime="3/27/2019">Yesterday</time>
-                    <p id="username" class="name">Brian Donahue</p>
-                    <p class="preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias facilis pariatur repudiandae quia mollitia beatae fugiat.</p>
-                </div>
-            </li>
-            <li class="unread">
-                <div class="img">
-                    <img src="https://popmenucloud.com/dxejtgzs/4fdbd15f-a507-43df-924a-213ae0f82806.png"/>
-                    <span class="initials">TC</span>
-                </div>
-                <div class="message-promo">
-                    <time datetime="3/29/2019">3/26/19</time>
-                    <p id="username"  class="name">Tim Coffee</p>
-                    <p class="preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias facilis pariatur repudiandae quia mollitia beatae fugiat.</p>
-                </div>
-            </li>
-            <li>
-                <div class="img">
-                    <img src="https://popmenucloud.com/dxejtgzs/4fdbd15f-a507-43df-924a-213ae0f82806.png"/>
-                    <span class="initials">BD</span>
-                </div>
-                <div class="message-promo">
-                    <time datetime="3/27/2019">Yesterday</time>
-                    <p id="username"  class="name">Brian Donahue</p>
-                    <p class="preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias facilis pariatur repudiandae quia mollitia beatae fugiat.</p>
-                </div>
-            </li>
-            <li class="unread">
-                <div class="img">
-                    <img src="https://popmenucloud.com/dxejtgzs/4fdbd15f-a507-43df-924a-213ae0f82806.png"/>
-                    <span class="initials">TC</span>
-                </div>
-                <div class="message-promo">
-                    <time datetime="3/29/2019">3/26/19</time>
-                    <p id="username"  class="name">Tim Coffee</p>
-                    <p class="preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias facilis pariatur repudiandae quia mollitia beatae fugiat.</p>
-                </div>
-            </li>
+            {% endfor %}
+           
         </ol>
     </nav>
     <section id="conversation">
@@ -120,8 +81,8 @@
     <div id="modaliphone" style="visibility: hidden;">
         <div class="imgmodal">
             <img id="modalimg" src="https://randomuser.me/api/portraits/men/40.jpg">
-            <p id="modalusername" class="name">Brian Donahue</p>
-            <span class="modalbio">Lorem ipsum dolor sit amet</span>
+            <p id="modalusername" class="name">{{name}}</p>
+            <span class="modalbio">{{their-bio}}</span>
             
             <div class="modalicon">
                
@@ -137,6 +98,8 @@
        
  
  
+    </div>
+
     </div>
    
     
