@@ -6,11 +6,11 @@
 
   {% include head.html %}
 
-  <body>
+  <body onload="loadvariable">
 
 
     {% include navigation.html %}
-    <div style="display:flex">
+    <div style="display:flex; padding-top:70px">
 
      <nav id="conversation-list">
         <div id="window-controls">
@@ -104,7 +104,7 @@
    
     
    
-</body>
+    <script src="{{site.baseurl}}/js/imessage.js"></script>
 
     {% include footer.html %}
 
