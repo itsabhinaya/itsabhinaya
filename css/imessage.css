@@ -9,6 +9,10 @@ body{
   font-family: "Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
+#conversation #messages p{
+  font-size: 15px !important;
+}
+
 a {
   color: #262626;
   }

@@ -1,44 +1,44 @@
 ﻿number,message,who
-1,"Ipsum dolore illo ea officiis tempore tempora repellendus sed, suscipit aut, inventore debitis consectetur, dolor temporibus?",outgoing
-2,Ipsam sequi,incoming
-3,"Lorem ipsum dolor, sit amet consectetur adipisicing elit",outgoing
-4,"Lorem ipsum dolor, sit amet consectetur adipisicing elit",outgoing
-5,"Lorem ipsum dolor, sit amet consectetur adipisicing elit",outgoing
-6,"Ipsum dolore illo ea officiis tempore tempora repellendus sed, suscipit aut, inventore debitis consectetur, dolor temporibus?",incoming
-7,Ipsam sequi,incoming
-8,"Lorem ipsum dolor, sit amet consectetur adipisicing elit",incoming
-9,"Lorem ipsum dolor, sit amet consectetur adipisicing elit",incoming
-10,"Lorem ipsum dolor, sit amet consectetur adipisicing elit",outgoing
-11,"Lorem ipsum dolor, sit amet consectetur adipisicing elit",outgoing
-12,"Ipsum dolore illo ea officiis tempore tempora repellendus sed, suscipit aut, inventore debitis consectetur, dolor temporibus?",incoming
-13,Ipsam sequi,incoming
-14,"Lorem ipsum dolor, sit amet consectetur adipisicing elit",outgoing
-15,"Lorem ipsum dolor, sit amet consectetur adipisicing elit",incoming
-16,"Lorem ipsum dolor, sit amet consectetur adipisicing elit",incoming
-17,"Ipsum dolore illo ea officiis tempore tempora repellendus sed, suscipit aut, inventore debitis consectetur, dolor temporibus?",incoming
-18,Ipsam sequi,outgoing
-19,"Lorem ipsum dolor, sit amet consectetur adipisicing elit",incoming
-20,"Lorem ipsum dolor, sit amet consectetur adipisicing elit",incoming
-21,"Lorem ipsum dolor, sit amet consectetur adipisicing elit",outgoing
-22,"Ipsum dolore illo ea officiis tempore tempora repellendus sed, suscipit aut, inventore debitis consectetur, dolor temporibus?",outgoing
-23,Ipsam sequi,outgoing
-24,"Lorem ipsum dolor, sit amet consectetur adipisicing elit",outgoing
-25,"Lorem ipsum dolor, sit amet consectetur adipisicing elit",incoming
-26,"Lorem ipsum dolor, sit amet consectetur adipisicing elit",incoming
-27,"Ipsum dolore illo ea officiis tempore tempora repellendus sed, suscipit aut, inventore debitis consectetur, dolor temporibus?",incoming
-28,Ipsam sequi,incoming
-29,"Lorem ipsum dolor, sit amet consectetur adipisicing elit",incoming
-30,"Lorem ipsum dolor, sit amet consectetur adipisicing elit",outgoing
-31,"Lorem ipsum dolor, sit amet consectetur adipisicing elit",outgoing
-32,"Ipsum dolore illo ea officiis tempore tempora repellendus sed, suscipit aut, inventore debitis consectetur, dolor temporibus?",incoming
-33,Ipsam sequi,outgoing
-34,"Lorem ipsum dolor, sit amet consectetur adipisicing elit",incoming
-35,"Lorem ipsum dolor, sit amet consectetur adipisicing elit",incoming
-36,"Lorem ipsum dolor, sit amet consectetur adipisicing elit",incoming
-37,"Ipsum dolore illo ea officiis tempore tempora repellendus sed, suscipit aut, inventore debitis consectetur, dolor temporibus?",outgoing
-38,Ipsam sequi,incoming
-39,"Lorem ipsum dolor, sit amet consectetur adipisicing elit",outgoing
-40,"Lorem ipsum dolor, sit amet consectetur adipisicing elit",incoming
-41,"Lorem ipsum dolor, sit amet consectetur adipisicing elit",outgoing
-42,"Ipsum dolore illo ea officiis tempore tempora repellendus sed, suscipit aut, inventore debitis consectetur, dolor temporibus?",incoming
-43,🙌,outgoing
+1,Hi David!,outgoing
+2,Hi Abhinaya!,incoming
+3,David - You have been an operator before and now you are an investor. ,outgoing
+4,I would love to talk to you about board meetings. ,outgoing
+5,"More specifically, how to prepare for them",outgoing
+6,Great! Looking forward to it.,incoming
+7,How long before the meeting do you start to prepare for a board meeting? ,incoming
+8,As an operator I like to schedule board meetings for 2.5 to 3 weeks after the quarter ends.,incoming
+9,That way I can close the quarter properly and have time to fill in strategic objectives for the upcoming quarter.,incoming
+10,Who did you prepare for these meetings with?,outgoing
+11,And did that change as the company grew?,outgoing
+12,At the outset it is the founder with some input from some operational heads like sales or customer support.,incoming
+13,"As soon as possible, the company needs a senior finance leader that takes the lead on preparing the ‘bones’ of the board package.",incoming
+14,"Great. When you start to prepare for the meetings, where do you like to start?",outgoing
+15,The basic structure is review of the past quarter financials and strategic objectives and then a forecast for the upcoming 2 to 3 quarters with the upcoming quarter strategic objectives.,incoming
+16,I also like to have 1 or 2 more substantive topics that I want board input on.,incoming
+17,Too many times a board meeting and packet are simply a review and before you know you have wasted 3 hours of valuable time with your investor and most impactful strategic advisors.,incoming
+18,"Given that they are review, do you provided the material before had for the board to prepare? ",outgoing
+19,"Yes, a board packet should ideally go out at least 72 hours in advance of the meeting.  Additionally, if at all possible you should not modify the board deck once it has been sent out.",incoming
+20,Too often changes are made to numbers and then you spend too much time during the meeting explaining where changes were made and why.,incoming
+21,Very true :s,outgoing
+22,"Sitting on the other side of the table now, do you get board packets ahead of time?",outgoing
+23,"As a investor, how do you prepare for them?",outgoing
+24,an*,outgoing
+25,Most of the time yes.  There are a few companies that send it an hour beforehand (sometimes for good reason) and it is a disservice to everyone.,incoming
+26,I always like to talk to the founder/CEO in advance of the meeting and usually with the head of sales or other key team members.,incoming
+27,I will review the deck and make notes on questions that I have.,incoming
+28,One of my primary questions to the CEO prior to the board meeting is ‘what to hope to get out of this meeting?’,incoming
+29,Key hiring discussion? Strategic direction for the business?  Churn issue?  Pricing/packaging issue? Funding?,incoming
+30,"That’s a good question to ask. Alright, so you are prepped for the meeting and sent the materials ahead of time.",outgoing
+31,"Assuming everyone looked over the packet, do you start off the meeting diving into questions or letting the founder explain the numbers first?",outgoing
+32,We start it off letting the founder run through their numbers and portions of the deck.,incoming
+33,What else should a founder keep in mind during a board meeting?,outgoing
+34,Time management and avoiding rabbit holes.,incoming
+35,Too often we only have 15 or 20 minutes for the most significant topics and those get short shrift or we end up spending way too much time on a minor issue.,incoming
+36,"My recommendation is for the founder to manage the meeting.  Respect and respond to board member questions and commentary, but if you have reached natural conclusion or it is not getting resolved take it offline and move on.",incoming
+37,"As an investor if you notice that you are spending too much time on a certain topic, do you wait for the founder to steer the conversation or do you help out?",outgoing
+38,I try to help out.,incoming
+39,We are coming short on time here and will pick up the conversation at a later time. ,outgoing
+40,but I only do that if I feel like the meeting is floundering or the founder is having a hard time steering to the next topic,incoming
+41,"This has been helpful to go over before and during the board meetings. Next time, I would love to dig into after a board meeting.",outgoing
+42,Great! Looking forward to it.,incoming
+43,🙏,outgoing
