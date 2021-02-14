@@ -8,4 +8,5 @@ their_twitter: https://twitter.com/davidckerr
 their_website: https://www.allosventures.com
 file_name: david_kerr
 tags: [ 'Board Meetings']
+permalink: texts/:title/
 ---
