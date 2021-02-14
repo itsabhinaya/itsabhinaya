@@ -3,16 +3,14 @@
 <html lang="{{ site.lang }}">
 
   {% include head.html %}
+  <script type="text/javascript" src="{{site.baseurl}}/js/papaparse.min.js"></script>
+  <!-- <script type="text/javascript" src="{{site.baseurl}}/js/typed.min.js"></script> -->
+<link href="{{site.baseurl}}/css/imessage.css" rel="stylesheet">
 
   <body>
-
-
     {% include navigation.html %}
     <div style="display:flex; padding-top:70px">
-
      <nav id="conversation-list">
-
-
         <div id="window-controls">
             <button id="close">x</button>
             <button id="minimize">–</button>
@@ -26,51 +24,58 @@
             </button>
         </div>
         <ol id="userOL">
-            {% for tag in page.name %}
-            <li >
-                <div class="img">
-                    <img src="https://popmenucloud.com/dxejtgzs/4fdbd15f-a507-43df-924a-213ae0f82806.png"/>
-                   <span class="initials">LC</span>
-                </div>
-                <div class="message-promo">
-                    <time datetime="{{ date }}">{{ date }}</time>
-                    <p id="username" class="name">{{ name }}</p>
-                    <p class="preview">{{ preview }}</p>
-                </div>
-            </li>
+            {% for post in site.posts %}
+                {% if post.layout == "imessage" %}
+                    <a href="{{site.baseurl}}{{post.url}}">
+                        <li >
+                            <div class="img">
+                              <!-- <span class="initials">LC</span> -->
+                              <img src="../../../../img/imessage/{{ post.file_name }}.jpg" />
+
+                            </div>
+                            <div class="message-promo">
+                                <time datetime="{{ page.date }}">{{ post.date | date_to_string}}</time>
+                                <p id="username" class="name">{{ post.person_name }}</p>
+                                <p class="preview">{{ post.preview }}</p>
+                            </div>
+                        </li>
+                    </a>
+                {% endif %}
             {% endfor %}
-           
         </ol>
     </nav>
     <section id="conversation">
         <aside class="info">
-            <p>To:<span id="activename" class="name">Linh 🎄 Christmas<i class="far fa-angle-down"></i></span> <a id="details">Details</a></p>
+            <p>To:<span id="activename" class="name">{{ page.person_name }} <i class="fa fa-angle-down"></i></span> <a id="details">Details</a></p>
         </aside>
         <article id="messages">
             <div id="first">
-            <time class="thread" datetime="3/25/19, 9:04 AM">
-                <div class="conversation-group">
-                    <p class="message imessage">Ipsum dolore illo ea officiis tempore tempora repellendus sed, suscipit aut, inventore debitis consectetur, dolor temporibus?</p>
-                </div>
-              
-                <div class="conversation-group">
-                    <p class="message imessage">Ipsum temporibus?</p>
-                    <p class="message imessage">Accusamus tempore est animi odit</p>
-                </div>
-                <div class="conversation-group outgoing">
-                    <p class="message imessage">Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
-                    <p class="message imessage">Ipsam sequi</p>
-                </div>
-            </time>
-          
-            <time class="thread" datetime="Yesterday, 2:56 PM">
-                <div class="conversation-group outgoing">
-                    <p class="message imessage">Quod ducimus reprehenderit delectus ullam corrupti? Accusamus tempore est animi odit, fugit ipsam molestias a veritatis, officiis officia corporis quos eos fugiat modi enim eligendi obcaecati sequi libero.</p>
-                </div>
+            <time class="thread" datetime="{{ page.date | date_to_string }}">
+                {% assign data = site.data.imessage[page.file_name] %}
+                {% assign rows = data.size | minus: 1 %}
+
+                {% for i in (0..rows) %}
+                    {% assign last = i | minus: 1 %}
+                    {% if forloop.first == true %}
+                        <div class="conversation-group {{ data[i].who }}">
+                            <p class="message imessage">{{ data[i].message }}</p>
+                            {% continue %}
+                    {% endif %}
+
+
+                    {% if data[i].who == data[last].who %}
+                        <p class="message imessage">{{ data[i].message }}</p>
+                    {% else%}
+                    </div>
+                      <div class="conversation-group {{ data[i].who }}">
+                        <p class="message imessage">{{ data[i].message }}</p>
+                    {% endif %}
+
+                {% endfor %}
             </time>
             </div>
-           
-        </article><!-- END MESSAGES -->
+        </article>
+        <!-- END MESSAGES -->
         <aside id="message-input" style="display:none">
             <input  id="meassagesend" type="text" placeholder="iMessage" autofocus />
             <button class="imessage">&#8593;</button>
@@ -80,29 +85,26 @@
 
     <div id="modaliphone" style="visibility: hidden;">
         <div class="imgmodal">
-            <img id="modalimg" src="https://randomuser.me/api/portraits/men/40.jpg">
-            <p id="modalusername" class="name">{{name}}</p>
-            <span class="modalbio">{{their-bio}}</span>
+            <p id="modalusername" class="name">{{ page.person_name }}</p>
+            <span class="modalbio">{{ page.their_bio }}</span>
             
             <div class="modalicon">
-               
-                <div class="linkedin">
-                <i class="fa fa-linkedin"></i> 
-            </div>
+                <a href="{{ page.their_twitter }}" target="_blank">
+                    <div class="twitter">
+                     <i class="fa fa-twitter"></i> 
+                    </div>
+                </a>
                 <div class="space"></div>
-               <div class="facebook">
-                <i class="fa fa-facebook"></i> 
-            </div>
+                <a href="{{ page.their_website }}" target="_blank">
+                    <div class="globe">
+                       <i class="fa fa-globe"></i> 
+                    </div>
+                </a>
             </div>
         </div>
-       
- 
- 
     </div>
 
     </div>
-   
-    
    
 
     <script src="{{site.baseurl}}/js/imessage.js"></script>

@@ -1,3 +1,4 @@
+bundle exec ./scripts/serve-production
 ./scripts/serve-production
 
     

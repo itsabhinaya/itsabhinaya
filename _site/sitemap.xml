@@ -28,6 +28,8 @@
     
   
     
+  
+    
       <url>
         <loc>https://abee369.github.io/</loc>
         
@@ -55,7 +57,7 @@
   
     
       <url>
-        <loc>https://abee369.github.io/story/</loc>
+        <loc>https://abee369.github.io/blog/</loc>
         
           
           
@@ -68,7 +70,7 @@
   
     
       <url>
-        <loc>https://abee369.github.io/blog/</loc>
+        <loc>https://abee369.github.io/story/</loc>
         
           
           
@@ -77,6 +79,10 @@
           
         
        </url>
+    
+  
+    
+  
     
   
     
@@ -163,6 +169,15 @@
        </url>
     
   
+  
+    <url>
+      <loc>https://abee369.github.io/texts/2021/02/06/david-kerr.html</loc>
+      
+        <lastmod>2021-02-06T00:00:00-06:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
   
     <url>
       <loc>https://abee369.github.io/rehuman/2019/01/21/week-9.html</loc>
