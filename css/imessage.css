@@ -24,7 +24,7 @@ a {
   display: flex;
   flex-flow: column;
   max-height: 100vh;
-  max-width: 500px;
+  max-width: 600px;
 }
 #conversation-list #window-controls {
   padding: 8px;
