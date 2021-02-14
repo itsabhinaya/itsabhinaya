@@ -12,7 +12,7 @@ url: "https://itsabhinaya.github.io/itsabhinaya"
 #
 # NB! Without this *nothing* will work, because it's used in every path :)
 
-baseurl: "/itsabhinaya"
+# baseurl: "/itsabhinaya"
 
 # Google tracking id
 
