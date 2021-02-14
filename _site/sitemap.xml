@@ -30,16 +30,39 @@
     
   
     
-      <url>
-        <loc>https://abee369.github.io/blog/</loc>
-        
-          
-          
-          
-          <priority>1.0</priority>
-          
-        
-       </url>
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
     
   
     
@@ -58,6 +81,19 @@
     
       <url>
         <loc>https://abee369.github.io/</loc>
+        
+          
+          
+          
+          <priority>1.0</priority>
+          
+        
+       </url>
+    
+  
+    
+      <url>
+        <loc>https://abee369.github.io/blog/</loc>
         
           
           
@@ -117,186 +153,11 @@
   
     
   
-    
-      <url>
-        <loc>https://abee369.github.io/blog/page2/</loc>
-        
-          
-          
-          
-          <priority>1.0</priority>
-          
-        
-       </url>
-    
-  
   
     <url>
       <loc>https://abee369.github.io/texts/david-kerr/</loc>
       
-        <lastmod>2021-02-06T00:00:00-06:00</lastmod>
-      
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-    </url>
-  
-    <url>
-      <loc>https://abee369.github.io/build/2018/04/15/Cryptozombies.html</loc>
-      
-        <lastmod>2018-04-15T00:00:00-05:00</lastmod>
-      
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-    </url>
-  
-    <url>
-      <loc>https://abee369.github.io/build/2018/04/12/toothpaste-coffee.html</loc>
-      
-        <lastmod>2018-04-12T00:00:00-05:00</lastmod>
-      
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-    </url>
-  
-    <url>
-      <loc>https://abee369.github.io/build/2017/07/24/Month-1.html</loc>
-      
-        <lastmod>2017-07-24T00:00:00-05:00</lastmod>
-      
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-    </url>
-  
-    <url>
-      <loc>https://abee369.github.io/3tl/2017/05/31/day-12.html</loc>
-      
-        <lastmod>2017-05-31T00:00:00-05:00</lastmod>
-      
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-    </url>
-  
-    <url>
-      <loc>https://abee369.github.io/3tl/2017/05/30/day-10.html</loc>
-      
-        <lastmod>2017-05-30T00:00:00-05:00</lastmod>
-      
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-    </url>
-  
-    <url>
-      <loc>https://abee369.github.io/3tl/2017/05/26/day-9.html</loc>
-      
-        <lastmod>2017-05-26T00:00:00-05:00</lastmod>
-      
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-    </url>
-  
-    <url>
-      <loc>https://abee369.github.io/3tl/2017/05/24/day-8.html</loc>
-      
-        <lastmod>2017-05-24T00:00:00-05:00</lastmod>
-      
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-    </url>
-  
-    <url>
-      <loc>https://abee369.github.io/3tl/2017/05/24/day-7.html</loc>
-      
-        <lastmod>2017-05-24T00:00:00-05:00</lastmod>
-      
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-    </url>
-  
-    <url>
-      <loc>https://abee369.github.io/3tl/2017/05/23/day-6.html</loc>
-      
-        <lastmod>2017-05-23T00:00:00-05:00</lastmod>
-      
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-    </url>
-  
-    <url>
-      <loc>https://abee369.github.io/3tl/2017/05/21/day-5.html</loc>
-      
-        <lastmod>2017-05-21T00:00:00-05:00</lastmod>
-      
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-    </url>
-  
-    <url>
-      <loc>https://abee369.github.io/3tl/2017/05/19/day-4.html</loc>
-      
-        <lastmod>2017-05-19T00:00:00-05:00</lastmod>
-      
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-    </url>
-  
-    <url>
-      <loc>https://abee369.github.io/3tl/2017/05/18/day-3.html</loc>
-      
-        <lastmod>2017-05-18T00:00:00-05:00</lastmod>
-      
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-    </url>
-  
-    <url>
-      <loc>https://abee369.github.io/3tl/2017/05/17/day-2.html</loc>
-      
-        <lastmod>2017-05-17T00:00:00-05:00</lastmod>
-      
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-    </url>
-  
-    <url>
-      <loc>https://abee369.github.io/3tl/2017/05/16/day-1.html</loc>
-      
-        <lastmod>2017-05-16T00:00:00-05:00</lastmod>
-      
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-    </url>
-  
-    <url>
-      <loc>https://abee369.github.io/update/2017/05/14/Why-M25-Group-And-Whats-Next.html</loc>
-      
-        <lastmod>2017-05-14T00:00:00-05:00</lastmod>
-      
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-    </url>
-  
-    <url>
-      <loc>https://abee369.github.io/list/2017/05/13/reading-list.html</loc>
-      
-        <lastmod>2017-05-13T00:00:00-05:00</lastmod>
-      
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-    </url>
-  
-    <url>
-      <loc>https://abee369.github.io/update/2017/05/13/other-than-work.html</loc>
-      
-        <lastmod>2017-05-13T00:00:00-05:00</lastmod>
-      
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-    </url>
-  
-    <url>
-      <loc>https://abee369.github.io/content%20creators/2016/11/15/free-copyrighted-songs-to-use-for-youtube.html</loc>
-      
-        <lastmod>2016-11-15T00:00:00-06:00</lastmod>
+        <lastmod>2021-01-29T00:00:00-06:00</lastmod>
       
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
